@@ -1,0 +1,14 @@
+import path from "path";
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  output: "export",
+  basePath: "",
+  images: { unoptimized: true },
+  trailingSlash: true,
+  turbopack: {
+    root: path.join(__dirname),
+  },
+};
+
+export default nextConfig;
