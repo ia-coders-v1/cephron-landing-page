@@ -206,14 +206,6 @@ A setup wizard checks the hardware, prepares storage and adds servers before you
 
 ---
 
-## Built on proven open technology
-
-Cephron brings well-known open-source building blocks together behind one simple interface.
-
-Kubernetes · KubeVirt · Ceph storage · PostgreSQL · Linux bridge and VLAN networking
-
----
-
 ## Closing call to action
 
 # Run your own cloud with Cephron

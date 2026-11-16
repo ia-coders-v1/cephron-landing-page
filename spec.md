@@ -10,7 +10,7 @@ Cephron has no public page. The domain cephron.ai is bought and the product team
 
 ## Solution
 
-A single static page in the Datorix style: hero with four headline benefits, a short "why a private cloud" section, eight feature sections with a sticky capability rail and a console illustration each, a tech strip and a closing call to action by email. Every claim is the PDF's wording; the content gate enforces that.
+A single static page in the Datorix style: hero with four headline benefits, a short "why a private cloud" section, eight feature sections with a sticky capability rail and a console illustration each, and a closing call to action by email. Every claim is the PDF's wording; the content gate enforces that.
 
 ## User Stories
 
@@ -25,15 +25,14 @@ A single static page in the Datorix style: hero with four headline benefits, a s
 9. As someone with VMs on VMware, Hyper-V, VirtualBox, Proxmox or a public cloud, I want the import formats and the export option, so that I know I am not locked in.
 10. As an operator, I want health, history, hardware status, logs, audit trail and the support bundle described, so that I know troubleshooting is built in.
 11. As a security reviewer, I want sign-in protection, isolation, reminders and guided setup described, so that I know defaults are safe.
-12. As an engineer, I want the underlying open technology listed (Kubernetes, KubeVirt, Ceph storage, PostgreSQL, Linux bridge and VLAN networking), so that I trust it.
-13. As a visitor, I want a "Request a demo" button that opens an email to info@cephron.ai, so that I can ask without a form.
-14. As a visitor, I want navigation to jump to each feature group, so that I can find a topic quickly.
-15. As a visitor on a phone, I want one column and a rail that scrolls sideways, with no horizontal page scroll and tap targets of at least 40px.
-16. As someone sharing the link, I want the title, description and social card to describe Cephron, so that the shared card matches the page.
-17. As a keyboard or screen-reader user, I want one h1, a logical heading order, focusable anchors, `aria-expanded` accordions and decorative panels hidden from assistive tech.
-18. As a visitor who prefers reduced motion, I want animations disabled.
-19. As a maintainer, I want the build to fail when the page and the md disagree or a forbidden claim appears, so that edits cannot drift.
-20. As the product owner, I want the one drafted section clearly flagged, so that I can approve or rewrite it before launch.
+12. As a visitor, I want a "Request a demo" button that opens an email to info@cephron.ai, so that I can ask without a form.
+13. As a visitor, I want navigation to jump to each feature group, so that I can find a topic quickly.
+14. As a visitor on a phone, I want one column and a rail that scrolls sideways, with no horizontal page scroll and tap targets of at least 40px.
+15. As someone sharing the link, I want the title, description and social card to describe Cephron, so that the shared card matches the page.
+16. As a keyboard or screen-reader user, I want one h1, a logical heading order, focusable anchors, `aria-expanded` accordions and decorative panels hidden from assistive tech.
+17. As a visitor who prefers reduced motion, I want animations disabled.
+18. As a maintainer, I want the build to fail when the page and the md disagree or a forbidden claim appears, so that edits cannot drift.
+19. As the product owner, I want the one drafted section clearly flagged, so that I can approve or rewrite it before launch.
 
 ## Page structure
 
@@ -49,8 +48,7 @@ A single static page in the Datorix style: hero with four headline benefits, a s
 | 8 | Move in from anywhere (2) | `move` | PDF |
 | 9 | Know what is happening (6) | `observe` | PDF |
 | 10 | Secure by default (4) | `secure` | PDF |
-| 11 | Built on proven open technology | (none) | PDF |
-| 12 | Closing call to action | `cta` | PDF |
+| 11 | Closing call to action | `cta` | PDF |
 
 Rail pills: Create, Control, Teams, Uptime, Storage, Migrate, Monitor, Security.
 

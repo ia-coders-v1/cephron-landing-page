@@ -5,7 +5,7 @@ Date: 2026-11-16
 
 ## Context
 
-Cephron is a sibling product to Datorix. It is a private cloud for virtual machines (KubeVirt on Kubernetes, Ceph storage), and it needs a public marketing page on the new domain cephron.ai. The product team supplied one document, `Cephron-Website-Features.pdf`: a hero, four headline benefits, eight feature groups, a tech strip and a closing call to action. It marks nothing as planned.
+Cephron is a sibling product to Datorix. It is a private cloud for virtual machines, and it needs a public marketing page on the new domain cephron.ai. The product team supplied one document, `Cephron-Website-Features.pdf`: a hero, four headline benefits, eight feature groups, and a closing call to action. It marks nothing as planned.
 
 The Datorix landing page already solved the same layout problem: scannable feature sections, a sticky capability rail, illustrative console panels, a static export, and a content gate that checks the page against a copy file. ADR 0001 of that repo set a truthfulness rule: every public claim must trace to a source, and unbacked claims are removed.
 

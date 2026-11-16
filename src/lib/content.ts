@@ -129,5 +129,3 @@ export const featureSections: FeatureSection[] = [
     ],
   },
 ];
-
-export const techStrip = ["Kubernetes", "KubeVirt", "Ceph storage", "PostgreSQL", "Linux bridge and VLAN networking"];

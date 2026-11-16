@@ -38,7 +38,7 @@ export const metadata: Metadata = {
       { rel: "mask-icon", url: "/favicon.svg" },
     ],
   },
-  keywords: ["private cloud", "virtual machines", "VM management", "KubeVirt", "Ceph", "live migration", "self-hosted cloud", "VMware alternative"],
+  keywords: ["private cloud", "virtual machines", "VM management", "self-hosted cloud", "live migration"],
   authors: [{ name: SITE_NAME }],
   alternates: { canonical: "/" },
   openGraph: {

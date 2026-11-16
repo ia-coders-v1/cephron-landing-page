@@ -1,5 +1,5 @@
 import { Navbar, Footer } from "./layout";
-import { Hero, Problem, FeatureSections, TechStrip, CallToAction } from "./sections";
+import { Hero, Problem, FeatureSections, CallToAction } from "./sections";
 
 export default function LandingPage() {
   return (
@@ -9,7 +9,6 @@ export default function LandingPage() {
         <Hero />
         <Problem />
         <FeatureSections />
-        <TechStrip />
         <CallToAction />
       </main>
       <Footer />

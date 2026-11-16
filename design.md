@@ -59,7 +59,6 @@ Unchanged: slate neutrals (`--background #f8fafc`, `--muted-foreground #64748b`,
 | FeatureSections | Counter (`01 / 08`), label badge, h2, tagline, accordion list beside a console panel. |
 | FeatureList | One item open at a time, native buttons with `aria-expanded` and `aria-controls`; every body stays in the DOM for the content gate; number drawn by CSS so the h3 text is only the card title. |
 | FeatureVisuals | Dark console panels (`bg-slate-800`) with window dots, a "sample data" label, rows, pills, bars and a footnote. `aria-hidden`, no h3/h4. |
-| TechStrip | Label, one sentence, chips on `surface-tonal`. |
 | CallToAction | Dark `bg-primary` band, one saffron "Request a demo" button (`mailto:`), no secondary action. |
 | Footer | Wordmark, email, capability links, copyright. No placeholder `#` links. |
 

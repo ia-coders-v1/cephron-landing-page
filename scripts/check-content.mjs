@@ -81,7 +81,7 @@ if (!page.includes("mailto:info@cephron.ai")) fail("demo mailto link missing");
 // 6. The md and the page agree on every card (title and body), in both directions.
 const md = readFileSync(mdPath, "utf8").split("\n");
 const start = md.findIndex((l) => l.startsWith("## Hero"));
-const end = md.findIndex((l) => l.startsWith("## Built on proven open technology"));
+const end = md.findIndex((l) => l.startsWith("## Closing call to action"));
 const cards = new Map(); // title -> body
 const blockTitles = new Set();
 const body = md.slice(start, end);
