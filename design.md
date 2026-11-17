@@ -53,12 +53,12 @@ Unchanged: slate neutrals (`--background #f8fafc`, `--muted-foreground #64748b`,
 |---|---|
 | Navbar | Transparent over the hero, white once scrolled or when the mobile menu is open; the background sits on the full-width header, not the inner container. Wordmark left, five anchor links, "Request a Demo" button. |
 | Logo | `public/logo.svg`, the symbol-plus-wordmark lockup at 32px tall (`Wordmark.tsx`). Sources in `brand/`. |
-| Hero | Badge, h1 (second line in `accent-saffron-text`), subcopy, two buttons (demo, explore), a dark VM-list panel, then the four benefits under a hairline. |
+| Hero | Badge, h1 (second line in `accent-saffron-text`), subcopy, two buttons (demo, explore), a light VM-list panel, then the four benefits under a hairline. |
 | Problem | Section label, h2, three tonal cards with a saffron icon tile. Drafted copy, pending approval. |
 | FeatureRail | Sticky pill nav, eight pills with icons, IntersectionObserver highlights the section in the upper third, scrolls horizontally on phones, pills at least 40px tall. |
 | FeatureSections | Counter (`01 / 08`), label badge, h2, tagline, accordion list beside a console panel. |
 | FeatureList | One item open at a time, native buttons with `aria-expanded` and `aria-controls`; every body stays in the DOM for the content gate; number drawn by CSS so the h3 text is only the card title. |
-| FeatureVisuals | Dark console panels (`bg-slate-800`) with window dots, a "sample data" label, rows, pills, bars and a footnote. `aria-hidden`, no h3/h4. |
+| FeatureVisuals | Light console panels (`bg-white`, slate-200 borders) with window dots, a "sample data" label, rows, pills, bars and a footnote. `aria-hidden`, no h3/h4. |
 | CallToAction | Dark `bg-primary` band, one saffron "Request a demo" button (`mailto:`), no secondary action. |
 | Footer | Wordmark, email, capability links, copyright. No placeholder `#` links. |
 

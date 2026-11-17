@@ -12,20 +12,20 @@ const VMS = [
 ];
 
 const stateStyle: Record<string, string> = {
-  RUNNING: "bg-accent-emerald/13 text-accent-emerald",
-  PAUSED: "bg-sky-400/13 text-sky-400",
-  STOPPED: "bg-slate-600/60 text-slate-300",
+  RUNNING: "bg-accent-emerald/13 text-emerald-700",
+  PAUSED: "bg-sky-500/13 text-sky-700",
+  STOPPED: "bg-slate-200 text-slate-600",
 };
 
 // Illustrative sample data, not a product claim.
 function VmWindow() {
   return (
-    <div aria-hidden="true" className="w-full rounded-xl overflow-hidden border bg-slate-800 border-slate-700">
-      <div className="flex items-center gap-2 px-4 py-3 border-b bg-slate-700 border-slate-600">
+    <div aria-hidden="true" className="w-full rounded-xl overflow-hidden border bg-white border-slate-200 shadow-xl shadow-slate-900/10">
+      <div className="flex items-center gap-2 px-4 py-3 border-b bg-slate-100 border-slate-200">
         <span className="w-3 h-3 rounded-full bg-accent-rose" />
         <span className="w-3 h-3 rounded-full bg-amber-500" />
         <span className="w-3 h-3 rounded-full bg-accent-emerald" />
-        <div className="ml-3 flex items-center gap-2 text-slate-400 min-w-0">
+        <div className="ml-3 flex items-center gap-2 text-slate-500 min-w-0">
           <Monitor size={12} className="shrink-0" />
           <span className="font-mono text-xs truncate">cephron — virtual machines</span>
         </div>
@@ -34,18 +34,18 @@ function VmWindow() {
 
       <div className="p-4 space-y-1.5 min-h-[260px] font-mono text-xs">
         {VMS.map((vm) => (
-          <div key={vm.name} className="flex items-center gap-3 leading-relaxed rounded-md border border-slate-700 bg-slate-900/40 px-3 py-2">
-            <span className="flex-1 min-w-0 truncate text-slate-200">{vm.name}</span>
-            <span className="hidden sm:block w-[72px] shrink-0 truncate text-accent-saffron">{vm.node}</span>
+          <div key={vm.name} className="flex items-center gap-3 leading-relaxed rounded-md border border-slate-200 bg-slate-50 px-3 py-2">
+            <span className="flex-1 min-w-0 truncate text-slate-800">{vm.name}</span>
+            <span className="hidden sm:block w-[72px] shrink-0 truncate text-accent-saffron-text">{vm.node}</span>
             <span className={cn("shrink-0 font-semibold px-2 py-0.5 rounded-full text-[11px]", stateStyle[vm.state])}>
               {vm.state}
             </span>
-            <span className="w-9 shrink-0 text-right text-slate-400">{vm.cpu}</span>
+            <span className="w-9 shrink-0 text-right text-slate-500">{vm.cpu}</span>
           </div>
         ))}
-        <div className="flex items-center gap-2 pt-3 text-slate-400">
+        <div className="flex items-center gap-2 pt-3 text-slate-500">
           {["Start", "Stop", "Pause", "Console"].map((a) => (
-            <span key={a} className="rounded-md border border-slate-600 px-2.5 py-1 text-[11px]">
+            <span key={a} className="rounded-md border border-slate-300 px-2.5 py-1 text-[11px]">
               {a}
             </span>
           ))}
